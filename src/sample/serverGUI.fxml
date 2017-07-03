@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="600.0" prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.serverGUIController">
+   <children>
+      <CubicCurve fx:id="bottomRightCompLine" controlX1="200.0" controlX2="50.0" controlY1="-100.0" controlY2="-100.0" endX="300.0" fill="#e8e9eb00" layoutX="360.7930603027344" layoutY="313.1499328613281" startX="85.0" startY="-220.0" stroke="#1b19b9" AnchorPane.bottomAnchor="140.85006713867188" AnchorPane.leftAnchor="389.79305267333984" AnchorPane.rightAnchor="262.8500747680664" />
+      <ImageView fx:id="bottomRightComp" fitHeight="150.0" fitWidth="200.0" layoutX="406.0" layoutY="513.6666870117188" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="14.333328247070312" AnchorPane.leftAnchor="435.0">
+         <image>
+            <Image url="@desktop-computer-keyboard-mouse.png" />
+         </image>
+      </ImageView>
+      <CubicCurve fx:id="leftCompLine" controlX1="-50.0" controlX2="10.0" controlY1="-100.0" controlY2="-100.0" endX="31.0" endY="-75.0" fill="#e8e9eb00" layoutX="178.79290771484375" layoutY="296.20709228515625" startX="-150.0" stroke="#1b19b9" strokeMiterLimit="20.0" visible="false" AnchorPane.bottomAnchor="288.7928924560547" AnchorPane.leftAnchor="207.79290771484375" AnchorPane.rightAnchor="209.85006713867188" />
+      <CubicCurve fx:id="bottomLeftCompLine" controlX2="50.0" controlY1="-0.0" controlY2="-100.0" endY="-200.0" fill="#e8e9eb00" layoutX="258.9527282714844" layoutY="309.0472717285156" startX="-100.0" startY="10.0" stroke="#1b19b9" strokeMiterLimit="15.0" visible="false" AnchorPane.bottomAnchor="154.95272827148438" AnchorPane.leftAnchor="287.9527282714844" AnchorPane.rightAnchor="460.38475799560547" />
+      <ImageView fx:id="bottomLeftComp" fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="513.6666870117188" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="14.333328247070312" AnchorPane.leftAnchor="229.0">
+         <image>
+            <Image url="@desktop-computer-keyboard-mouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="leftComp" fitHeight="150.0" fitWidth="200.0" layoutY="356.66668701171875" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="171.3333282470703" AnchorPane.leftAnchor="29.0">
+         <image>
+            <Image url="@desktop-computer-keyboard-mouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rightComp" fitHeight="150.0" fitWidth="200.0" layoutX="675.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="171.3333282470703" AnchorPane.leftAnchor="675.0" AnchorPane.rightAnchor="25.0">
+         <image>
+            <Image url="@desktop-computer-keyboard-mouse.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="serverImage" fitHeight="163.0" fitWidth="228.0" layoutX="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@png_servers_racks_6209.png" />
+         </image>
+         <effect>
+            <Shadow />
+         </effect>
+      </ImageView>
+      <CubicCurve fx:id="rightCompLine" controlX1="-50.0" controlX2="10.0" controlY1="-100.0" controlY2="-100.0" endX="31.0" endY="-75.0" fill="#e8e9eb00" layoutX="644.0" layoutY="482.0" startX="-250.0" startY="-150.0" stroke="#1b19b9" strokeMiterLimit="20.0" AnchorPane.bottomAnchor="282.7955551147461" AnchorPane.leftAnchor="392.89366149902344" AnchorPane.rightAnchor="193.79554748535156" />
+      <CubicCurve fx:id="leftServerLine" controlX1="-50.0" controlX2="10.0" controlY1="-100.0" controlY2="-100.0" endX="100.0" endY="-300.0" fill="#e8e9eb00" layoutX="233.0" layoutY="394.0" startX="-150.0" startY="-50.0" stroke="#fcc911" strokeMiterLimit="20.0" AnchorPane.bottomAnchor="319.7951965332031" AnchorPane.leftAnchor="81.79521179199219" AnchorPane.topAnchor="92.8388671875">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </CubicCurve>
+      <CubicCurve fx:id="rightServerLine" controlX1="-100.0" controlY1="-100.0" controlY2="-100.0" endX="90.0" endY="20.0" fill="#e8e9eb00" layoutX="601.0" layoutY="393.0" startX="-150.0" startY="-270.0" stroke="#fcc911" strokeMiterLimit="20.0" AnchorPane.bottomAnchor="320.7951965332031" AnchorPane.leftAnchor="449.7952117919922" AnchorPane.topAnchor="91.20480346679688">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </CubicCurve>
+      <CubicCurve fx:id="rightBottomServerLine" controlX1="-50.0" controlX2="10.0" controlY1="-100.0" controlY2="-100.0" endX="50.0" endY="-60.0" fill="#e8e9eb00" layoutX="533.0" layoutY="556.0" startX="-100.0" startY="-430.0" stroke="#fcc911" strokeMiterLimit="20.0" AnchorPane.bottomAnchor="152.84002685546875" AnchorPane.leftAnchor="431.9307403564453" AnchorPane.topAnchor="124.15997314453125">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </CubicCurve>
+      <CubicCurve fx:id="leftBottomServerLine" controlX1="-100.0" controlX2="-20.0" controlY1="-100.0" controlY2="-100.0" endY="-450.0" fill="#e8e9eb00" layoutX="396.0" layoutY="557.0" startX="-150.0" startY="-60.0" stroke="#fcc911" strokeMiterLimit="20.0" AnchorPane.bottomAnchor="156.81552124023438" AnchorPane.leftAnchor="244.81552124023438" AnchorPane.topAnchor="105.18447875976562">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </CubicCurve>
+      <TextArea fx:id="textComp1" editable="false" layoutX="26.0" layoutY="113.0" prefHeight="176.0" prefWidth="206.0" visible="false" AnchorPane.bottomAnchor="361.0" AnchorPane.leftAnchor="26.0" />
+      <TextArea fx:id="textComp3" editable="false" layoutX="635.0" layoutY="441.0" prefHeight="176.0" prefWidth="200.0" visible="false" />
+      <TextArea fx:id="textComp2" editable="false" layoutX="14.0" layoutY="459.0" prefHeight="176.0" prefWidth="200.0" visible="false" />
+      <Button fx:id="startServerButton" layoutX="346.0" layoutY="58.0" mnemonicParsing="false" onAction="#startServerAction" prefHeight="40.0" prefWidth="88.0" text="Start Server" textAlignment="CENTER" textFill="#410dd1">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="178.95" color="#f4ff60" elevation="57.56" />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <TextArea fx:id="textComp4" editable="false" layoutX="676.0" layoutY="113.0" prefHeight="176.0" prefWidth="200.0" visible="false" />
+      <ImageView fitHeight="91.0" fitWidth="130.0" layoutX="332.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cloud-hi.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="secretText" layoutX="635.0" layoutY="33.0" prefHeight="25.0" prefWidth="172.0" promptText="must be 16 characters long" />
+      <Label fx:id="secretLabel" layoutX="506.0" layoutY="33.0" prefHeight="25.0" prefWidth="104.0" text="Enter The Secret" />
+      <CheckBox fx:id="defaultSecretCheckBox" layoutX="703.0" layoutY="69.0" mnemonicParsing="false" onAction="#defaultSecretAction" prefHeight="17.0" prefWidth="104.0" text="default secret" />
+      <Label fx:id="infoLabel" layoutX="506.0" layoutY="69.0" prefHeight="25.0" prefWidth="130.0" textAlignment="CENTER" textFill="#eb3c3c" />
+   </children>
+</AnchorPane>
